@@ -248,7 +248,7 @@ const ConferenceEvent = () => {
                                 <div className="addons_selection">
 
                                 </div>
-                                <div className="total_cost">Total Cost:</div>
+                                <div className="total_cost">Total Add-On Cost: {mealsTotalCost + avTotalCost}</div>
 
                             </div>
 
@@ -266,7 +266,7 @@ const ConferenceEvent = () => {
                                     </div>
                                 </div>
                             ))}
-                            <div className="total_cost">Total Cost: {avTotalCost}</div>
+                            <div className="total_cost">AV Cost: {avTotalCost}</div>
 
                             {/* Meal Section */}
 
@@ -297,9 +297,9 @@ const ConferenceEvent = () => {
                                           <div className="meal_cost">${item.cost}</div>
                                       </div>
                                   ))}
-                                  <div className="total_cost">Total Cost: {mealsTotalCost}</div>
+                                  <div className="total_cost">Meals Cost: {mealsTotalCost}</div>
                                 </div>
-                                <div className="total_cost">Total Cost: </div>
+                                <div className="total_cost">Total Add-On Cost: {mealsTotalCost + avTotalCost}</div>
 
                             </div>
                         </div>
